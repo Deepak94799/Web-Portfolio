@@ -1,0 +1,258 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Deepak Singh - Senior Data Analyst & Data Engineer</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        /* Custom Styles for Professional Look */
+        #charts-dashboards, #resume-section {
+            margin: 40px 0;
+        }
+        .chart-container, .resume-container {
+            position: relative;
+            height: 400px;
+            width: 100%;
+        }
+        .resume-container img {
+            max-width: 100%;
+            height: auto;
+        }
+        .content ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .content ul li {
+            padding: 5px 0;
+        }
+        /* Ensuring footer content does not overlap with other sections */
+        footer {
+            clear: both;
+            padding: 20px;
+            background: #f4f4f4;
+            margin-top: 40px;
+        }
+        .contact-section {
+            margin: 20px 0;
+        }
+        .contact-section h3 {
+            margin-top: 0;
+        }
+        #resume-section {
+            margin-top: 80px;
+        }
+    </style>
+</head>
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="logo">Deepak Singh</a>
+        </header>
+
+        <!-- Nav -->
+        <nav id="nav">
+            <ul class="links">
+                <li><a href="index.html">Portfolio</a></li>
+                <li><a href="generic.html">About Me</a></li>
+                <li class="active"><a href="elements.html">Resume and Projects Detailed Insights</a></li>
+            </ul>
+            <ul class="icons">
+                <li><a href="https://www.facebook.com/profile.php?id=100028211223482" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+                <li><a href="https://www.instagram.com/_deepak_singh_77/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a href="https://github.com/Deepak94799" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                <li><a href="https://www.linkedin.com/in/deepak-singh-9602ab20b/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+            </ul>
+        </nav>
+
+        <!-- Main -->
+        <div id="main">
+
+            <!-- Professional Summary -->
+            <section id="professional-summary">
+                <header>
+                    <h2>Professional Summary</h2>
+                </header>
+                <div class="content">
+                    <p>
+                        Driven by an insatiable passion for innovation and the transformative power of technology, I am Deepak Singh—a relentless problem solver, visionary architect of ideas, and masterful coder of infinite possibilities. In the symphony of creativity and algorithms, I find my rhythm, orchestrating a narrative of progress and impact with every project I embark on. Join me in this exhilarating journey where each line of code is a brushstroke, painting a vibrant and dynamic portrait of the future.
+                    </p>
+                    <p>
+                        As an undergraduate student at Chandigarh University, pursuing a Bachelor of Technology (B.Tech) in Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning, I am also an accomplished Data Engineer and Data Analyst. I specialize in distilling complex datasets into illuminating insights. With proficiency in SQL, Python, and data visualization tools like Power BI and Tableau, I turn data into compelling stories. Currently, I’m spearheading the development of an interactive dashboard, 'Daily Financial Health Tracker,' leveraging Power BI to deliver unparalleled clarity in monitoring financial health. This endeavor underscores my dedication to excellence in data engineering and analysis, transforming raw data into powerful, actionable narratives.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Key Skills and Project Highlights -->
+            <section id="key-skills-projects">
+                <header>
+                    <h2>Key Skills and Project Highlights</h2>
+                </header>
+                <div class="content">
+                    <h3>Key Skills</h3>
+                    <ul>
+                        <li>Advanced Machine Learning Techniques</li>
+                        <li>Expert Data Analysis and Interpretation</li>
+                        <li>Proficient in Python and SQL</li>
+                        <li>Advanced Data Visualization with Power BI and Tableau</li>
+                        <li>Strong Analytical and Problem-Solving Skills</li>
+                    </ul>
+                    <h3>Project Highlights</h3>
+                    <ul>
+                        <li><strong>Daily Financial Health Tracker:</strong> Developed an interactive dashboard using Power BI for real-time financial monitoring and analysis, providing actionable insights and strategic recommendations.</li>
+                        <li><strong>Customer Segmentation Analysis:</strong> Conducted in-depth analysis using clustering techniques to segment customers, resulting in targeted marketing strategies and improved customer engagement.</li>
+                        <li><strong>Predictive Maintenance System:</strong> Engineered a machine learning-based predictive maintenance system to forecast equipment failures, reducing downtime and maintenance costs significantly.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Interactive Charts and Dashboards -->
+            <section id="charts-dashboards">
+                <header>
+                    <h2>Interactive Charts and Dashboards</h2>
+                </header>
+                <div class="content">
+                    <h3>Sales Performance</h3>
+                    <div class="chart-container">
+                        <canvas id="salesChart"></canvas>
+                    </div>
+                    <h3>Customer Segmentation</h3>
+                    <div class="chart-container">
+                        <canvas id="segmentationChart"></canvas>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <section class="contact-section">
+                <form method="post" action="#">
+                    <div class="fields">
+                        <div class="field">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" />
+                        </div>
+                        <div class="field">
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email" />
+                        </div>
+                        <div class="field">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <ul class="actions">
+                        <li><input type="submit" value="Send Message" /></li>
+                    </ul>
+                </form>
+            </section>
+            <section class="contact-section">
+                <h3>Address</h3>
+                <p>Ashray Prisar, Yadav Colony, Jabalpur, Madhya Pradesh<br /></p>
+            </section>
+            <section class="contact-section">
+                <h3>Phone</h3>
+                <p><a href="tel:+919479953475">+91-9479953475</a></p>
+            </section>
+            <section class="contact-section">
+                <h3>Email</h3>
+                <p><a href="mailto:ds9870854@gmail.com">ds9870854@gmail.com</a></p>
+            </section>
+            <section class="contact-section">
+                <h3>Social</h3>
+                <ul class="icons alt">
+                    <li><a href="https://twitter.com" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="https://www.facebook.com" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+                    <li><a href="https://www.instagram.com" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a href="https://github.com" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                </ul>
+            </section>
+        </footer>
+
+        <!-- Copyright -->
+        <div id="copyright">
+            <ul><li>&copy; Deepak Singh</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        // Sales Performance Chart
+        var ctx1 = document.getElementById('salesChart').getContext('2d');
+        var salesChart = new Chart(ctx1, {
+            type: 'bar',
+            data: {
+                labels: ['January', 'February', 'March', 'April', 'May'],
+                datasets: [{
+                    label: 'Sales Performance',
+                    data: [1200, 1500, 1700, 1800, 2000],
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                },
+                plugins: {
+                    tooltip: {
+                        callbacks: {
+                            label: function(tooltipItem) {
+                                return tooltipItem.label + ': $' + tooltipItem.raw;
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+        // Customer Segmentation Chart
+        var ctx2 = document.getElementById('segmentationChart').getContext('2d');
+        var segmentationChart = new Chart(ctx2, {
+            type: 'pie',
+            data: {
+                labels: ['Segment A', 'Segment B', 'Segment C', 'Segment D'],
+                datasets: [{
+                    label: 'Customer Segmentation',
+                    data: [40, 25, 15, 20],
+                    backgroundColor: ['rgba(255, 99, 132, 0.2)', 'rgba(54, 162, 235, 0.2)', 'rgba(255, 206, 86, 0.2)', 'rgba(75, 192, 192, 0.2)'],
+                    borderColor: ['rgba(255, 99, 132, 1)', 'rgba(54, 162, 235, 1)', 'rgba(255, 206, 86, 1)', 'rgba(75, 192, 192, 1)'],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    tooltip: {
+                        callbacks: {
+                            label: function(tooltipItem) {
+                                return tooltipItem.label + ': ' + tooltipItem.raw + '%';
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+
+</body>
+</html>
